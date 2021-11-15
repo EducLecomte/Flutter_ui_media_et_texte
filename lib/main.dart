@@ -100,9 +100,8 @@ class _MyHomePageState extends State<MyHomePage> {
             // ajout des assets dans pubspec.yaml
             Image.asset(
               'Assets/Images/flutter-logo.png',
-              width: 150,
             ),
-            Image.network('https://pedagogeek.fr/img/pcpx.png'),
+            Image.network('https://pedagogeek.fr/img/pcpx.png', width: 150),
             Container(
               width: MediaQuery.of(context).size.width / 1.2,
               height: 100,
@@ -111,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   style: TextStyle(
                       color: Colors.brown,
                       fontWeight: FontWeight.bold,
-                      //fontSize: 50,
+                      fontSize: 50,
                       fontStyle: FontStyle.italic),
                   textAlign: TextAlign.left,
                   overflow: TextOverflow.clip),
