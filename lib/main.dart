@@ -103,7 +103,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Image.network('https://pedagogeek.fr/img/pcpx.png', width: 150),
             Container(
-              width: MediaQuery.of(context).size.width / 1.2,
+              width: MediaQuery.of(context).size.width * 0.8,
               height: 100,
               color: Colors.black,
               child: const Text('Voici un texte quelconque',
